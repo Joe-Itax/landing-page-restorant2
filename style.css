@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+main{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Img/LanPage-BCG-Pain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    margin-top: 9rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Roboto", 'Times New Roman', sans-serif;
+}
+
+p{
+    padding: 3rem 14rem 3rem 14rem;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 1rem 3rem 0 3rem;
+}
+
+.btn1, .btn2{
+    padding: 10px 2rem 10px 2rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    width: 40rem;
+    margin-right: 1rem;
+}
+
+.btn1{
+    background-color: #ff793f;
+}
+
+.btn1:hover{
+    opacity: .89;
+}
+
+.btn2{
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.btn2:hover{
+    color: black;
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
